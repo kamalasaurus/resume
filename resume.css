@@ -1,0 +1,100 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "GillSans";
+}
+
+canvas {
+  background-color: #ffffff;
+}
+
+.document-container {
+  position: relative;
+  width: 1500px;
+  height: 2000px;
+}
+
+.heading {
+  position: relative;
+  height: 180px;
+}
+
+.name {
+  position: relative;
+  font-size: 70px;
+  font-weight: 400;
+}
+
+.web-presence {
+  position: absolute;
+  right: 0;
+  top: 0;
+  padding: 15px;
+}
+
+.tags {
+  margin-bottom: 4px;
+  color: #777777;
+}
+
+.tags span {
+  display: inline-block;
+  padding: 2px 4px;
+  color: #777777;
+  border: solid 1px #777777;
+  border-radius: 2px;
+}
+
+.declaration {
+  display: inline-block;
+  font-size: 20px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-weight: 400;
+}
+
+h2 {
+  display: inline-block;
+  padding-bottom: 5px;
+  border-bottom: solid 1px #aaaaaa;
+}
+
+.heading-border {
+  display: inline-block;
+  padding-bottom: 3px;
+  border-bottom: solid 1px #aaaaaa;
+  margin-bottom: 10px
+}
+
+.column-left {
+  display: inline-block;
+  vertical-align: top;
+  width: 500px;
+  font-size: 30px;
+  margin-right: 15px;
+}
+
+.column-right {
+  display: inline-block;
+  vertical-align: top;
+  width: 980px;
+  font-size: 30px;
+}
+
+p {
+  text-indent: 40px;
+}
+
+.event {
+  box-sizing: border-box;
+  margin-bottom: 20px;
+  padding: 15px;
+}
+
+.research-date {
+  margin-top: 20px;
+}
